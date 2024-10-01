@@ -285,7 +285,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 #home{
   /*margin-left: 50px;*/
-  background-image: url('./Components/assets/bg2.jpg');
+  background-image: url('./img/bg2.jpg');
   background-position: top center;
   background-size:cover;
   background-repeat: no-repeat;
@@ -606,7 +606,7 @@ width:1520px;
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./Components/assets/footer-bg.png');
+  background-image: url('./img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

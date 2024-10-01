@@ -1,11 +1,11 @@
-import meter1 from "../Components/Assets/meter1.svg";
-import meter2 from "../Components/Assets/meter2.svg";
-import meter3 from "../Components/Assets/meter3.svg";
+import meter1 from "../img/meter1.svg";
+import meter2 from "../img/meter2.svg";
+import meter3 from "../img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 //import arrow1 from "../Components/assets/img/arrow1.svg";
 //import arrow2 from "../Components/assets/img/arrow2.svg";
-import colorSharp from "../Components/Assets/color-sharp.png"
+import colorSharp from "../img/color-sharp.png"
 
 export const Skills = () => {
   const responsive = {

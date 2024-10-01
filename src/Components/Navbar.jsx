@@ -1,9 +1,9 @@
 import { Navbar,} from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
-import github from "../components/Assets/github.png";
-import gmail from "../components/Assets/gmail.png";
-import linkedin from "../components/Assets/linkedin.png";
-import logo from "../components/Assets/logo.png";
+import github from "../img/github.png";
+import gmail from "../img/gmail.png";
+import linkedin from "../img/linkedin.png";
+import logo from "../img/logo.png";
 import { useState, useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav';
 /*import {

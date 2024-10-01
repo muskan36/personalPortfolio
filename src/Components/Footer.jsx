@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 //import { MailchimpForm } from "./MailchimpForm";
-import logo from "../components/Assets/logo.png";
-import github from "../components/Assets/github.png";
-import gmail from "../components/Assets/gmail.png";
-import linkedin from "../components/Assets/linkedin.png";
+import logo from "../img/logo.png";
+import github from "../img/github.png";
+import gmail from "../img/gmail.png";
+import linkedin from "../img/linkedin.png";
 
 export const Footer = () => {
   return (
