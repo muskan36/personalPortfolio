@@ -5,7 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 //import arrow1 from "../Components/assets/img/arrow1.svg";
 //import arrow2 from "../Components/assets/img/arrow2.svg";
-import colorSharp from "../img/color-sharp.png"
+import colorSharp from "../img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
@@ -37,8 +37,8 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>Proficient in web development, specializing in front-end technologies like HTML, CSS, and JavaScript.
                            <br></br>Experienced in designing and deploying scalable backend solutions with Node.js and Express
-                           <br></br>Skilled in creating visually appealing designs, proficient with tools like Adobe Photoshop, Illustrator, and InDesign.
-                           <br></br>Strong understanding of core C++ concepts, including object-oriented programming, pointers, and basic data structures. Able to write functional code and solve intermediate-level problems efficiently.</p>
+                          {/* <br></br>Skilled in creating visually appealing designs, proficient with tools like Adobe Photoshop, Illustrator, and InDesign.*/}
+                          {/* <br></br>Strong understanding of core C++ concepts, including object-oriented programming, pointers, and basic data structures. Able to write functional code and solve intermediate-level problems efficiently.*/}</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />

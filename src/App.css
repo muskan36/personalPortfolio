@@ -1,6 +1,6 @@
 @font-face {
   font-family:Averia_Serif_Libre ;
-  src: url('./Components/assets/AveriaSerifLibre-Regular.ttf');
+  src: url('./img/AveriaSerifLibre-Regular.ttf');
   font-weight: 700;
 }
 
@@ -53,6 +53,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width:100%;
 }
 
 html {
@@ -267,6 +268,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .vvd{
   text-emphasis-color: black;
 }
+img{
+  width:100%;
+}
 
 
 /************ Banner Css ************/
@@ -321,6 +325,7 @@ width:1520px;
 }
 .banner button {
   color: #000000;
+  background-color: #FFFFFF;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -374,7 +379,7 @@ width:1520px;
   margin-top: -60px;
 
 }
-.skill h2 {
+.skill h2 {  
 	font-size: 45px;
 	font-weight: 700;
 }
@@ -684,7 +689,12 @@ width:1520px;
 }
 
 
-@media only screen and (max-width:821px){
+@media only screen and (max-width:412px){
+
+  *{
+    max-width:412px;
+    
+  }
   .navbar-text{
     margin-left: 80px;
   }
@@ -697,7 +707,7 @@ width:1520px;
   }
 
  .navbar-collapse{
-    margin-left: 1000px;
+    margin-left: 80px;
  }
 
  .navbar-text{
@@ -705,8 +715,86 @@ width:1520px;
  }
 
  .me-auto{
-  margin-left: 330px;
-  margin-bottom: 20px;
+  /*margin-left: 300px;*/
+  margin-bottom: 10px;
  }
+
+ img{
+ max-width: 10000px;
+ }
+
+ nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight:60%;
+  font-size:13px;
+  margin-left: 200px;
+ }
+
+ nav.navbar .navbar-expand-lg .navbar-light{
+  width:500px;
+ }
+ .social-icon{
+  max-width:30%;
+ }
+
+ .vvd {
   
+ }
+
+ .banner img{
+  max-width: 30%;
+  /*margin-left: 300px;*/
+  margin-top: 20px;
+ }
+
+ .banner .tagline {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+ }
+ .banner h1 {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: 30px;
+
 }
+.banner p {
+  color: #f3e5e5;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  margin-left: 30px;
+}
+
+#home{
+  /*margin-left: 50px;*/
+  
+  
+  
+  
+width:610px;
+}
+
+.banner button{
+  margin-left: 30px;
+  letter-spacing: 0.5;
+  margin-top:10px;
+
+}
+
+.social-icon {
+max-width: 50%;
+display:flex;
+margin-left: 120px;
+
+
+
+
+}
+  
+};
