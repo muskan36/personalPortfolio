@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import github from "../img/github.png";
 import gmail from "../img/gmail.png";
 import linkedin from "../img/linkedin.png";
-import logo from "../img/logo.png";
+import logo1 from "../img/logo.png";
 import { useState, useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav';
 /*import {
@@ -41,7 +41,7 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled":""}>
       <Container>
         <Navbar.Brand href="#home">
-        <img src={logo} alt='logo'/>
+        <img src={logo1} alt='logo'/>
         </Navbar.Brand>
         <Navbar.Toggle className="basic-navbar-nav">
         <span className ="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@ export const NavBar = () => {
               <a href='#'><img src ={gmail} alt="" /></a>
               <a href='https://www.linkedin.com/in/ritika-yadav-933052258'><img src ={linkedin} alt="" /></a>
             </div>
-            <button className='vvd' onClick={() => console.log(connect)} > <span> Let's Connect</span></button>
+            <button className='vvd' onClick={() => console.log(connect)} id ="btn"> <span className='cnt'> Let's Connect</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
